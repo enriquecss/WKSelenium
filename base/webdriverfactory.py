@@ -48,7 +48,7 @@ class WebDriverFactory():
 
         if self.env == "qact":
             #Set ctcorp QA
-            baseURL = "http://qa1.smbstaging.com/"
+            baseURL = "http://www.google.com/"
         elif self.env == "prepct":
             baseURL = "https://preprod.ct.wolterskluwer.com/"
         elif self.env == "portal":
